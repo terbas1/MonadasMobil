@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoVentas2Activity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/pantallaCarga"
+                android:gravity="center">
+                <TextView
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="NOMBRE DEL PRODUCTO"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Nombre del Cliente:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Marco antonio"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Cantidad:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  2"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Dirección:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Jr los Flamencos #663"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Total:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="S/.25.00"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Fecha de Compra:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="10/02/2020"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Enviando Producto"
+                    android:background="@drawable/button_info2"
+                    android:layout_margin="20dp"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

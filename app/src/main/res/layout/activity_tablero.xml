@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TableroActivity"
+    android:accessibilityPaneTitle="TABLERO">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_margin="15dp"
+            >
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <LinearLayout
+                android:id="@+id/ventas"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="40dp"
+                android:background="#3CC9C3">
+
+                <TextView
+                    android:id="@+id/text_ventas"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:text="S/89.00"
+                     android:layout_height="match_parent"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:textSize="18dp"
+                    android:textColor="#fff"
+                    android:text="Ventas"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="40dp"
+                android:layout_marginLeft="25dp"
+                android:background="#3EB342">
+
+                <TextView
+                    android:id="@+id/text_visitas"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="141"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:text="Visitas"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="center_horizontal|center_vertical">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="40dp"
+                            android:background="#C9A83C">
+
+                            <TextView
+                                android:id="@+id/text_usuarios"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#fff"
+                                android:textSize="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent" />
+                            <TextView
+                                android:text="Usuarios"
+                                android:textColor="#fff"
+                                android:textSize="18dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="40dp"
+                            android:layout_marginLeft="25dp"
+                            android:background="#C25E56">
+
+                            <TextView
+                                android:id="@+id/text_produc"
+                                android:gravity="center"
+                                android:text="15"
+                                android:textColor="#fff"
+                                android:textSize="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent" />
+                            <TextView
+                                android:text="Productos"
+                                android:textColor="#fff"
+                                android:textSize="18dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp">
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PRODUCTOS MÁS VENDIDOS"/>
+                <LinearLayout
+                    android:paddingTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="15dp">
+                    <TextView
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Casaca"/>
+                    <TextView
+                        android:textSize="15dp"
+                        android:paddingLeft="20dp"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10%"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="15dp">
+                    <TextView
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Poleras"/>
+                    <TextView
+                        android:textSize="15dp"
+                        android:paddingLeft="20dp"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20%"/>
+                </LinearLayout>
+                <LinearLayout
+
+                    android:paddingTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="15dp">
+                    <TextView
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pantalones"
+                        />
+                    <TextView
+                        android:textSize="15dp"
+                        android:paddingLeft="20dp"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="30%"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
